@@ -1,0 +1,23 @@
+.brandInput {
+  border: solid #626262 1px;
+  color: #626262;
+  border-radius: 8px;
+  font-family: "Roboto";
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-left: 30px;
+
+  .brandButton {
+    width: 169px;
+    border-radius: 8px;
+  }
+
+  input {
+    outline: none;
+    border: none;
+    height: 100%;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}

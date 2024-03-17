@@ -1,0 +1,16 @@
+.logo {
+  text-transform: uppercase;
+  color: #343434;
+  font-size: 24px;
+  cursor: pointer;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-fill-color: #343434;
+  font-family: 'roboto';
+  font-weight: 500;
+  
+  letter-spacing: -2px;
+  
+  text-shadow: 1px 3px 4px rgba(0,0,0,0.42);
+}

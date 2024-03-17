@@ -1,0 +1,57 @@
+.slideHeroItem {
+  height: 540px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -330px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 60px 140px;
+  color: #fff;
+  font-family: "Inter";
+  flex-wrap: wrap;
+
+  .mainInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    h3 {
+      font-weight: 900;
+      font-size: 64px;
+      max-width: 400px;
+    }
+    p {
+      font-weight: 300;
+      max-width: 700px;
+    }
+
+    h3,
+    p {
+      text-align: left;
+      font-size: 60px;
+    }
+  }
+
+  .addInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 470px;
+    justify-content: start;
+    padding-top: 40px;
+   
+    h3{
+      font-weight: 300;
+      padding: 5px 15px;
+      font-size: 40px;
+      backdrop-filter: blur(10px);
+    }
+    p{
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+}

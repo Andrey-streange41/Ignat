@@ -1,0 +1,37 @@
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 100px;
+  margin-bottom: 30px;
+
+  .brandButton {
+    width: 165px;
+  }
+
+  .content {
+    max-width: 570px;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+
+    h2 {
+      font-size: 38px;
+      font-weight: 500;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #626262;
+    }
+  }
+  .picture {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 371px;
+  }
+}

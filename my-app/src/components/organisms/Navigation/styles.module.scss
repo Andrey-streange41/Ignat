@@ -1,0 +1,24 @@
+.navigation {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .navItem {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343434;
+    text-transform: uppercase;
+
+    &.active, &:hover{
+      text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.42);
+
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #000000;
+      -webkit-text-fill-color: #343434;
+    }
+    
+  }
+}

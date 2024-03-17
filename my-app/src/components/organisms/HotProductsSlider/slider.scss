@@ -1,0 +1,54 @@
+.hot-product-slider {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 100px;
+  padding: 0px 100px;
+  position: relative;
+  
+  .hot-product-slider-right-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .swiper-pagination-fraction {
+   display: none;
+  }
+
+  .hot-product-slider-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    .hot-product-slider-title {
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 26px;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .prev-button,.next-button{
+        cursor: pointer;
+      }
+    }
+  }
+
+  .my-slider {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+
+    .swiper-slide {
+      justify-content: center;
+      display: flex;
+    }
+  }
+}
